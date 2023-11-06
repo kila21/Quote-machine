@@ -1,27 +1,32 @@
-# React + TypeScript + Vite
+# Random Quote Machine
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Random Quote Machine Screenshot](./src/assets/Screenshot_1.png)
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Display a random quote on the screen.
+- Fetch quotes from an external API.
+- Share the current quote on Twitter.
 
-## Expanding the ESLint configuration
+## Api used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+The project fetches quotes from the https://rapidapi.com/martin.svoboda/api/quotes15/ api.
 
-- Configure the top-level `parserOptions` property like this:
+## Technologies used
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+- React
+- Typescript
+- axios
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## installation
+
+- clone the repository
+- change directory
+- npm install
+- npm run dev
+
+### Author
+
+- luka kilasonia
+- github: https://github.com/kila21
+- linkedin: https://www.linkedin.com/in/luka-kilasonia-937a9a211/
