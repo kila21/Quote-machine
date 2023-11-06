@@ -1,0 +1,33 @@
+.container {
+  /* width: 550px; */
+  min-height: 300px;
+  height: auto;
+  background-color: white;
+  border-radius: 3px;
+}
+
+#quote-box {
+  max-width: 450px;
+  width: auto;
+  padding: 40px 50px;
+  min-height: 100%;
+  height: auto;
+  background-color: white;
+  border-radius: 3px;
+  color: red;
+  display: flex;
+  flex-direction: column;
+}
+.quote-box__text {
+  text-align: center;
+}
+
+#text {
+  width: 100%;
+  font-weight: 500px;
+  font-size: 1.75rem;
+}
+
+#author {
+  text-align: right;
+}
