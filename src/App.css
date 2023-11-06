@@ -31,3 +31,31 @@
 #author {
   text-align: right;
 }
+
+.button-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+#new-quote {
+  height: 38px;
+  border-radius: 3px;
+  padding: 8px 18px 6px 18px;
+  background-color: red;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+#tweet-quote {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,4 +1,5 @@
 import "./App.css";
+import { twiterIcon } from "./assets/icons/icons";
 
 function App() {
   return (
@@ -15,7 +16,12 @@ function App() {
             </p>
           </div>
           {/* buttons for new qutes*/}
-          <div className="button-container"></div>
+          <div className="button-container">
+            <a target="_top" href="twitter.com/intent/tweet" id="tweet-quote">
+              {twiterIcon}
+            </a>
+            <button id="new-quote">New quote</button>
+          </div>
         </div>
       </div>
     </>
