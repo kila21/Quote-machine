@@ -66,7 +66,13 @@ function App() {
           </div>
           {/* buttons for new qutes*/}
           <div className="button-container">
-            <a target="_top" href="twitter.com/intent/tweet" id="tweet-quote">
+            <a
+              target="_blank"
+              href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(
+                data?.quote || ""
+              )}`}
+              id="tweet-quote"
+            >
               {twiterIcon}
             </a>
             <button onClick={getNewQuote} id="new-quote">
